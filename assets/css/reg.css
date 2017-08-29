@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background: url("../regimages/bj.jpg") no-repeat center top #246287;
+}
+
+.warp {
+  width: 10rem;
+  height: 9.77778rem;
+  background: pink;
+}
+
+.warp .heard {
+  display: flex;
+  justify: space-around;
+}
+
+.warp .heard .h-anniu {
+  height: 0.51852rem;
+  width: 0.64815rem;
+  background: red;
+}
+
+.warp .heard .h-anniu i {
+  font-size: 60px;
+}
+
+.warp .heard a img {
+  width: 4.35185rem;
+  height: 0.68519rem;
+}
+
+.warp .heard a .h-fd {
+  height: 0.25926rem;
+  width: 0.32407rem;
+  background: red;
+}
+
+.warp .heard a .h-fd i {
+  font-size: 60px;
+}

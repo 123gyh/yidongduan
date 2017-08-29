@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+}
+
+@function rem($px) {
+    //$px为需要转换的大小
+    @return $px / 108px * 1rem; // 108为移动端的分辨率
+}
+
+body {
+    background: url("../regimages/bj.jpg") no-repeat center top rgb(36, 98, 135);
+}
+
+.warp {
+    width: rem(1080px);
+    height: rem(1056px);
+    background: pink;
+    .heard {
+        display: flex;
+        justify: space-around;
+        .h-anniu {
+            height: rem(56px);
+            width: rem(70px);
+            background: red;
+            i {
+                font-size: 60px;
+            }
+        }
+        a {
+            img {
+                width: rem(470px);
+                height: rem(74px);
+            }
+            .h-fd {
+                height: rem(28px);
+                width: rem(35px);
+                background: red;
+                i {
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+}
