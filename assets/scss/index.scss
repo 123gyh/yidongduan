@@ -1,0 +1,190 @@
+@function rem($px) {
+    @return $px/108px*1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.warp {
+    width: 100%;
+    height: rem(3000px);
+    .header {
+        display: flex;
+        width: 100%;
+        height: rem(184px);
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+        background: #fff;
+        .h-anniu {
+            flex: 0.5;
+            height: rem(54px);
+            margin-left: rem(45px);
+            // margin-top: rem(62px);
+            i {
+                font-size: rem(54px);
+                color: #bcc6ce;
+            }
+        }
+        .h-logo {
+            flex: 2;
+            height: rem(184px);
+            margin-top: rem(20px);
+            a {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .h-fd {
+            flex: 0.5;
+            height: rem(54px);
+            margin-left: rem(110px);
+            i {
+                font-size: rem(52px);
+                color: #bcc6ce;
+            }
+        }
+    }
+    // main 开始
+    .main {
+        width: 100%;
+        height: rem(2000px);
+        .m-lb {
+            overflow: hidden;
+            width: 100%;
+            height: rem(448px);
+            background: #ddd;
+            position: relative;
+            >ul {
+                >li {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: rem(448px);
+                    img {
+                        width: 100%;
+                        height: rem(448px);
+                    }
+                }
+            }
+            >ol {
+                position: absolute;
+                bottom: rem(-350px);
+                left: rem(400px);
+                li {
+                    float: left;
+                    width: rem(32px);
+                    height: rem(32px);
+                    border-radius: 50%;
+                }
+            }
+            .l-left {
+                position: absolute;
+                top: rem(200px);
+                left: rem(46px);
+                width: rem(47px);
+                height: rem(47px);
+                i {
+                    font-size: rem(75px);
+                    color: #bec6cc;
+                }
+            }
+            .l-right {
+                position: absolute;
+                top: rem(200px);
+                right: rem(70px);
+                width: rem(47px);
+                height: rem(47px);
+                i {
+                    font-size: rem(75px);
+                    color: #bec6cc;
+                }
+            }
+        }
+        // 轮播图结束
+        .m-mr {
+            width: 100%;
+            margin-top: rem(80px);
+            height: auto;
+            h1 {
+                font-size: rem(68px);
+                color: #485465;
+                font-weight: 600;
+                margin-bottom: rem(68px);
+            }
+            .m-list {
+                margin: 0 auto;
+                width: 100%;
+                overflow: hidden;
+                >ul {
+                    width: 100%;
+                    height: auto;
+                    >li {
+                        display: flex;
+                        align-content: center;
+                        width: 100%;
+                        height: rem(215px);
+                        border: 1px dotted #ddd;
+                        margin-bottom: rem(25px);
+                        & a:first-child {
+                            img {
+                                width: 100%;
+                                height: rem(213px);
+                            }
+                        }
+                        & a:last-child {
+                            display: block;
+                            height: rem(48px);
+                            color: #6c6c6c;
+                            font-size: rem(48px);
+                            white-space: warp;
+                            h3 {
+                                padding-left: rem(34px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // 每日新鲜结束
+        .m-xx {
+            display: flex;
+            width: 76%;
+            height: auto;
+            margin-top: rem(41px);
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .xx-k {
+                width: 40%;
+                height: rem(159px);
+                border: 1px solid #f2f2f2;
+                font-size: rem(55px);
+                color: #7e7e7e;
+                border-radius: rem(15px);
+                background: #fff;
+                text-align: center;
+                line-height: rem(159px);
+                margin-bottom: rem(13px);
+                margin-left: rem(70px);
+                a {
+                    font-size: rem(55px);
+                    color: #7e7e7e;
+                }
+            }
+        }
+    }
+    //main结束
+}
+
+.active {
+    background: red;
+}
