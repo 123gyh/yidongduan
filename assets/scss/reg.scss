@@ -9,36 +9,205 @@ a {
 
 body {
     background: url("../regimages/bj.jpg") no-repeat center top rgb(36, 98, 135);
+    background-size: 100% 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .warp {
     width: rem(1080px);
-    height: rem(1056px);
-    background: pink;
+    height: rem(2113px);
+    // background: pink;
     .heard {
         display: flex;
-        justify: space-around;
+        justify-content: space-between;
+        align-items: center;
+        width: rem(1080px);
+        height: rem(181px);
+        background: #fff;
         .h-anniu {
-            height: rem(56px);
-            width: rem(70px);
-            background: red;
+            height: rem(55px);
+            width: rem(74px);
+            // background: red;
+            padding-left: rem(45px);
             i {
-                font-size: 60px;
+                font-size: rem(55px);
+                color: #bcc6ce;
             }
         }
         a {
             img {
-                width: rem(470px);
-                height: rem(74px);
+                width: rem(468px);
             }
-            .h-fd {
-                height: rem(28px);
-                width: rem(35px);
-                background: red;
-                i {
-                    font-size: 60px;
+        }
+        .h-fd {
+            height: rem(50px);
+            width: rem(55px);
+            padding-right: rem(45px);
+            i {
+                font-size: rem(50px);
+                color: #bcc6ce;
+            }
+        }
+    }
+    //主体部分
+    .main {
+        width: rem(1080px);
+        height: rem(1932px);
+        h1 {
+            font-size: rem(80px);
+            color: #fff;
+            text-align: center;
+            margin-top: rem(170px);
+            font-weight: 200;
+        }
+        >span {
+            display: block;
+            font-size: rem(38px);
+            color: #fff;
+            text-align: center;
+            line-height: rem(30px);
+            padding: rem(100px) rem(55px) rem(42px) rem(55px);
+        }
+        .m-tp {
+            height: rem(94px);
+            margin-left: rem(77px);
+            a {
+                display: inline-block;
+                width: rem(96px);
+                height: rem(94px);
+                border-radius: 50%;
+                margin-right: rem(46px);
+                img {
+                    width: 100%;
                 }
             }
+        }
+        .xian {
+            font-size: rem(44px);
+            color: #fff;
+            line-height: rem(44px);
+            text-align: center;
+            font-weight: 80;
+            //vertical-align: middle: ;
+            .x-x {
+                display: inline-block;
+                border: rem(1px);
+                width: rem(445px);
+                background: #fff;
+                height: rem(1px);
+                text-align: center;
+                text-align: center;
+                vertical-align: middle;
+            }
+        }
+        .m-xuanz {
+            margin: 0 auto;
+            width: rem(976px);
+            height: rem(141px);
+            border: 1px solid #d8cbc0;
+            margin-top: rem(70px);
+            background: #fff;
+            border-radius: rem(10px);
+            & span:last-child {
+                border-left: 2px solid #d8cbc0;
+                background-color: #a4bfcb;
+            }
+            >span {
+                font-size: rem(48px);
+                color: #6c6c6c;
+                text-align: center;
+                line-height: rem(141px);
+                display: inline-block;
+                width: rem(480px);
+                height: rem(140px);
+            }
+        }
+        // 表单
+        form {
+            margin-top: rem(44px);
+            .srk {
+                margin: 0 auto;
+                width: rem(976px);
+                height: rem(141px);
+                border-radius: rem(10px);
+                background: #fff;
+                margin-bottom: rem(17px);
+                >p {
+                    width: rem(243px);
+                    display: inline-block;
+                    font-size: rem(46px);
+                    color: #2e2e2e;
+                    line-height: rem(141px);
+                    text-align: center;
+                }
+                >input {
+                    width: rem(720px);
+                    border: 0;
+                    outline: none;
+                    font-size: rem(40px);
+                }
+                & input:last-child {
+                    font-size: rem(41px);
+                }
+            }
+            .yzm {
+                margin: 0 auto;
+                width: rem(976px);
+                height: rem(141px);
+                border-radius: rem(10px);
+                background: #fff;
+                margin-bottom: rem(17px);
+                >p {
+                    width: rem(243px);
+                    display: inline-block;
+                    font-size: rem(46px);
+                    color: #2e2e2e;
+                    line-height: rem(140px);
+                    text-align: center;
+                }
+                >input {
+                    width: rem(300px);
+                    border: 0;
+                    outline: none;
+                    font-size: rem(40px);
+                }
+                & p:last-child {
+                    width: rem(287px);
+                    font-size: rem(41px);
+                }
+            }
+            .f-tj {
+                margin: 0 auto;
+                width: rem(976px);
+                height: rem(141px);
+                border-radius: rem(20px);
+                margin-top: rem(27px);
+                >input {
+                    width: rem(976px);
+                    height: rem(141px);
+                    font-size: rem(54px);
+                    color: #fff;
+                    line-height: rem(141px);
+                    background: #4085f3;
+                    border-radius: rem(20px);
+                }
+            }
+        }
+        // 表单结束
+        .footer {
+            margin: 0 auto;
+            width: rem(553px);
+            height: rem(43px);
+            font-size: rem(40px);
+            color: #fff;
+            margin-top: rem(60px);
+            letter-spacing: rem(20px);
+            padding-bottom: rem(10px);
         }
     }
 }

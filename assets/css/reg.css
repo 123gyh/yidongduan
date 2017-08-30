@@ -4,40 +4,226 @@ a {
 
 body {
   background: url("../regimages/bj.jpg") no-repeat center top #246287;
+  background-size: 100% 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .warp {
   width: 10rem;
-  height: 9.77778rem;
-  background: pink;
+  height: 19.56481rem;
 }
 
 .warp .heard {
   display: flex;
-  justify: space-around;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+  height: 1.67593rem;
+  background: #fff;
 }
 
 .warp .heard .h-anniu {
-  height: 0.51852rem;
-  width: 0.64815rem;
-  background: red;
+  height: 0.50926rem;
+  width: 0.68519rem;
+  padding-left: 0.41667rem;
 }
 
 .warp .heard .h-anniu i {
-  font-size: 60px;
+  font-size: 0.50926rem;
+  color: #bcc6ce;
 }
 
 .warp .heard a img {
-  width: 4.35185rem;
-  height: 0.68519rem;
+  width: 4.33333rem;
 }
 
-.warp .heard a .h-fd {
-  height: 0.25926rem;
-  width: 0.32407rem;
-  background: red;
+.warp .heard .h-fd {
+  height: 0.46296rem;
+  width: 0.50926rem;
+  padding-right: 0.41667rem;
 }
 
-.warp .heard a .h-fd i {
-  font-size: 60px;
+.warp .heard .h-fd i {
+  font-size: 0.46296rem;
+  color: #bcc6ce;
+}
+
+.warp .main {
+  width: 10rem;
+  height: 17.88889rem;
+}
+
+.warp .main h1 {
+  font-size: 0.74074rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 1.57407rem;
+  font-weight: 200;
+}
+
+.warp .main > span {
+  display: block;
+  font-size: 0.35185rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.27778rem;
+  padding: 0.92593rem 0.50926rem 0.38889rem 0.50926rem;
+}
+
+.warp .main .m-tp {
+  height: 0.87037rem;
+  margin-left: 0.71296rem;
+}
+
+.warp .main .m-tp a {
+  display: inline-block;
+  width: 0.88889rem;
+  height: 0.87037rem;
+  border-radius: 50%;
+  margin-right: 0.42593rem;
+}
+
+.warp .main .m-tp a img {
+  width: 100%;
+}
+
+.warp .main .xian {
+  font-size: 0.40741rem;
+  color: #fff;
+  line-height: 0.40741rem;
+  text-align: center;
+  font-weight: 80;
+}
+
+.warp .main .xian .x-x {
+  display: inline-block;
+  border: 0.00926rem;
+  width: 4.12037rem;
+  background: #fff;
+  height: 0.00926rem;
+  text-align: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.warp .main .m-xuanz {
+  margin: 0 auto;
+  width: 9.03704rem;
+  height: 1.30556rem;
+  border: 1px solid #d8cbc0;
+  margin-top: 0.64815rem;
+  background: #fff;
+  border-radius: 0.09259rem;
+}
+
+.warp .main .m-xuanz span:last-child {
+  border-left: 2px solid #d8cbc0;
+  background-color: #a4bfcb;
+}
+
+.warp .main .m-xuanz > span {
+  font-size: 0.44444rem;
+  color: #6c6c6c;
+  text-align: center;
+  line-height: 1.30556rem;
+  display: inline-block;
+  width: 4.44444rem;
+  height: 1.2963rem;
+}
+
+.warp .main form {
+  margin-top: 0.40741rem;
+}
+
+.warp .main form .srk {
+  margin: 0 auto;
+  width: 9.03704rem;
+  height: 1.30556rem;
+  border-radius: 0.09259rem;
+  background: #fff;
+  margin-bottom: 0.15741rem;
+}
+
+.warp .main form .srk > p {
+  width: 2.25rem;
+  display: inline-block;
+  font-size: 0.42593rem;
+  color: #2e2e2e;
+  line-height: 1.30556rem;
+  text-align: center;
+}
+
+.warp .main form .srk > input {
+  width: 6.66667rem;
+  border: 0;
+  outline: none;
+  font-size: 0.37037rem;
+}
+
+.warp .main form .srk input:last-child {
+  font-size: 0.37963rem;
+}
+
+.warp .main form .yzm {
+  margin: 0 auto;
+  width: 9.03704rem;
+  height: 1.30556rem;
+  border-radius: 0.09259rem;
+  background: #fff;
+  margin-bottom: 0.15741rem;
+}
+
+.warp .main form .yzm > p {
+  width: 2.25rem;
+  display: inline-block;
+  font-size: 0.42593rem;
+  color: #2e2e2e;
+  line-height: 1.2963rem;
+  text-align: center;
+}
+
+.warp .main form .yzm > input {
+  width: 2.77778rem;
+  border: 0;
+  outline: none;
+  font-size: 0.37037rem;
+}
+
+.warp .main form .yzm p:last-child {
+  width: 2.65741rem;
+  font-size: 0.37963rem;
+}
+
+.warp .main form .f-tj {
+  margin: 0 auto;
+  width: 9.03704rem;
+  height: 1.30556rem;
+  border-radius: 0.18519rem;
+  margin-top: 0.25rem;
+}
+
+.warp .main form .f-tj > input {
+  width: 9.03704rem;
+  height: 1.30556rem;
+  font-size: 0.5rem;
+  color: #fff;
+  line-height: 1.30556rem;
+  background: #4085f3;
+  border-radius: 0.18519rem;
+}
+
+.warp .main .footer {
+  margin: 0 auto;
+  width: 5.12037rem;
+  height: 0.39815rem;
+  font-size: 0.37037rem;
+  color: #fff;
+  margin-top: 0.55556rem;
+  letter-spacing: 0.18519rem;
+  padding-bottom: 0.09259rem;
 }
