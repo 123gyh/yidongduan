@@ -1,0 +1,193 @@
+@function rem($px) {
+    @return $px/108px*1rem;
+}
+
+.warp {
+    width: 100%;
+    height: auto;
+    // 头部 开始
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: flex;
+        width: 100%;
+        height: rem(184px);
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+        background: #fff;
+        .h-anniu {
+            flex: 0.5;
+            height: rem(54px);
+            margin-left: rem(45px);
+            i {
+                font-size: rem(54px);
+                color: #bcc6ce;
+            }
+        }
+        .h-logo {
+            flex: 2;
+            height: rem(184px);
+            margin-top: rem(20px);
+            a {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .h-fd {
+            flex: 0.5;
+            height: rem(54px);
+            margin-left: rem(110px);
+            i {
+                font-size: rem(52px);
+                color: #bcc6ce;
+            }
+        }
+    }
+    //头部 结束
+    //主体上部分
+    .mainup {
+        position: relative;
+        margin-top: rem(180px);
+        width: 100%;
+        height: rem(1799px);
+        background: url("../listimages/bj.jpg") no-repeat;
+        background-position: left top;
+        background-size: 100% 100%;
+        .u-k {
+            display: flex;
+            width: 40%;
+            height: auto;
+            position: absolute;
+            top: rem(86px);
+            left: rem(546px);
+            background: yellow;
+            justify-content: space-between;
+            .blue {
+                width: 40%;
+                height: rem(193px);
+                background-size: 100% 100%;
+                background: url("../listimages/1.png") no-repeat;
+            }
+        }
+    }
+    // 主体主体下部分
+    .maindown {
+        margin-top: rem(89px);
+        width: 100%;
+        height: auto;
+        background: #fff;
+        .m-xx {
+            display: flex;
+            height: auto;
+            width: 100%;
+            margin-left: rem(55px);
+            li {
+                font-size: rem(36px);
+                padding: rem(32px);
+                background: #fff;
+                border-radius: rem(20px);
+                margin-right: rem(20px);
+                border: 1px solid #e8ecf0;
+                a {
+                    color: #8c92a1;
+                }
+            }
+        }
+        //产品列表
+        .m-list {
+            width: 100%;
+            height: auto;
+            .l-kk {
+                width: 95%;
+                height: auto;
+                display: flex;
+                padding-top: rem(76px);
+                padding-bottom: rem(112px);
+                border-bottom: 1px dotted #d3d6da;
+                a {
+                    width: 55%;
+                    display: block;
+                    margin-left: rem(53px);
+                    img {
+                        width: 100%;
+                        height: rem(202px);
+                    }
+                }
+                h3 {
+                    margin-left: rem(63px);
+                    margin-top: rem(20px);
+                    font-size: rem(48px);
+                }
+            }
+        }
+        .yema {
+            width: 20%;
+            height: rem(87px);
+            margin: 0 auto;
+            font-size: rem(36px);
+            color: #34b400;
+            line-height: rem(87px);
+            text-align: center;
+            margin-top: rem(60px);
+            border-radius: rem(20px);
+            border: 1px solid #c2ccd4;
+            margin-bottom: rem(95px);
+        }
+    }
+    .footer {
+        width: 100%;
+        height: auto;
+        border-top: 2px solid #cbcbcb;
+        .footer1 {
+            width: 100%;
+            height: auto;
+            h1 {
+                margin-top: rem(63px);
+                text-align: center;
+                font-size: rem(58px);
+                color: #4b4b4b;
+                font-weight: bold;
+                margin-bottom: rem(58px);
+            }
+            .f1 {
+                width: 100%;
+                margin: 0 auto;
+                height: auto;
+                ul {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: rem(43px);
+                    a {
+                        display: block;
+                        li {
+                            font-size: rem(40px);
+                            color: #767676;
+                            margin-right: rem(20px);
+                        }
+                    }
+                }
+            }
+            >p {
+                text-align: center;
+                font-size: rem(26px);
+                color: #767676;
+                margin-bottom: rem(43px);
+            }
+        }
+        .footer2 {
+            width: 100%;
+            height: rem(121px);
+            text-align: center;
+            font-size: rem(34px);
+            color: #767676;
+            line-height: rem(121px);
+            border-top: 1px solid #cbcbcb;
+        }
+    }
+}

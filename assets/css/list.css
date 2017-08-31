@@ -1,0 +1,211 @@
+.warp {
+  width: 100%;
+  height: auto;
+}
+
+.warp .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  height: 1.7037rem;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+
+.warp .header .h-anniu {
+  flex: 0.5;
+  height: 0.5rem;
+  margin-left: 0.41667rem;
+}
+
+.warp .header .h-anniu i {
+  font-size: 0.5rem;
+  color: #bcc6ce;
+}
+
+.warp .header .h-logo {
+  flex: 2;
+  height: 1.7037rem;
+  margin-top: 0.18519rem;
+}
+
+.warp .header .h-logo a img {
+  width: 100%;
+}
+
+.warp .header .h-fd {
+  flex: 0.5;
+  height: 0.5rem;
+  margin-left: 1.01852rem;
+}
+
+.warp .header .h-fd i {
+  font-size: 0.48148rem;
+  color: #bcc6ce;
+}
+
+.warp .mainup {
+  position: relative;
+  margin-top: 1.66667rem;
+  width: 100%;
+  height: 16.65741rem;
+  background: url("../listimages/bj.jpg") no-repeat;
+  background-position: left top;
+  background-size: 100% 100%;
+}
+
+.warp .mainup .u-k {
+  display: flex;
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 0.7963rem;
+  left: 5.05556rem;
+  background: yellow;
+  justify-content: space-between;
+}
+
+.warp .mainup .u-k .blue {
+  width: 40%;
+  height: 1.78704rem;
+  background-size: 100% 100%;
+  background: url("../listimages/1.png") no-repeat;
+}
+
+.warp .maindown {
+  margin-top: 0.82407rem;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.warp .maindown .m-xx {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-left: 0.50926rem;
+}
+
+.warp .maindown .m-xx li {
+  font-size: 0.33333rem;
+  padding: 0.2963rem;
+  background: #fff;
+  border-radius: 0.18519rem;
+  margin-right: 0.18519rem;
+  border: 1px solid #e8ecf0;
+}
+
+.warp .maindown .m-xx li a {
+  color: #8c92a1;
+}
+
+.warp .maindown .m-list {
+  width: 100%;
+  height: auto;
+}
+
+.warp .maindown .m-list .l-kk {
+  width: 95%;
+  height: auto;
+  display: flex;
+  padding-top: 0.7037rem;
+  padding-bottom: 1.03704rem;
+  border-bottom: 1px dotted #d3d6da;
+}
+
+.warp .maindown .m-list .l-kk a {
+  width: 55%;
+  display: block;
+  margin-left: 0.49074rem;
+}
+
+.warp .maindown .m-list .l-kk a img {
+  width: 100%;
+  height: 1.87037rem;
+}
+
+.warp .maindown .m-list .l-kk h3 {
+  margin-left: 0.58333rem;
+  margin-top: 0.18519rem;
+  font-size: 0.44444rem;
+}
+
+.warp .maindown .yema {
+  width: 20%;
+  height: 0.80556rem;
+  margin: 0 auto;
+  font-size: 0.33333rem;
+  color: #34b400;
+  line-height: 0.80556rem;
+  text-align: center;
+  margin-top: 0.55556rem;
+  border-radius: 0.18519rem;
+  border: 1px solid #c2ccd4;
+  margin-bottom: 0.87963rem;
+}
+
+.warp .footer {
+  width: 100%;
+  height: auto;
+  border-top: 2px solid #cbcbcb;
+}
+
+.warp .footer .footer1 {
+  width: 100%;
+  height: auto;
+}
+
+.warp .footer .footer1 h1 {
+  margin-top: 0.58333rem;
+  text-align: center;
+  font-size: 0.53704rem;
+  color: #4b4b4b;
+  font-weight: bold;
+  margin-bottom: 0.53704rem;
+}
+
+.warp .footer .footer1 .f1 {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.warp .footer .footer1 .f1 ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.39815rem;
+}
+
+.warp .footer .footer1 .f1 ul a {
+  display: block;
+}
+
+.warp .footer .footer1 .f1 ul a li {
+  font-size: 0.37037rem;
+  color: #767676;
+  margin-right: 0.18519rem;
+}
+
+.warp .footer .footer1 > p {
+  text-align: center;
+  font-size: 0.24074rem;
+  color: #767676;
+  margin-bottom: 0.39815rem;
+}
+
+.warp .footer .footer2 {
+  width: 100%;
+  height: 1.12037rem;
+  text-align: center;
+  font-size: 0.31481rem;
+  color: #767676;
+  line-height: 1.12037rem;
+  border-top: 1px solid #cbcbcb;
+}
