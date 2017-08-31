@@ -14,7 +14,8 @@ a {
 
 .warp {
     width: 100%;
-    height: rem(3000px);
+    //height: rem(7000px);
+    height: auto;
     .header {
         display: flex;
         width: 100%;
@@ -56,7 +57,7 @@ a {
     // main 开始
     .main {
         width: 100%;
-        height: rem(2000px);
+        height: rem(5400px);
         .m-lb {
             overflow: hidden;
             width: 100%;
@@ -166,7 +167,7 @@ a {
             .xx-k {
                 width: 40%;
                 height: rem(159px);
-                border: 1px solid #f2f2f2;
+                border: 1px solid #f3f3f3;
                 font-size: rem(55px);
                 color: #7e7e7e;
                 border-radius: rem(15px);
@@ -181,8 +182,146 @@ a {
                 }
             }
         }
+        //展示部分start
+        .m-zs {
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+            margin-top: rem(65px);
+            .zsk {
+                margin: 0 auto;
+                width: 95%;
+                height: rem(930px);
+                a {
+                    position: relative;
+                    margin: 0 auto;
+                    display: block;
+                    width: 90%;
+                    height: rem(602px);
+                    background: url("../indeximages/1.png") repeat;
+                    opacity: 0.8;
+                    img {
+                        width: 100%;
+                        height: rem(602px);
+                    }
+                    .sheji {
+                        position: absolute;
+                        top: rem(15px);
+                        left: rem(30px);
+                        width: 15%;
+                        height: rem(84px);
+                        line-height: rem(84px);
+                        text-align: center;
+                        border-radius: 42%;
+                        background: #d0c0a4;
+                        opacity: 0.5;
+                    }
+                }
+                .wzk {
+                    margin: 0 auto;
+                    width: 90%;
+                    border: 1px solid #f2f2f2;
+                    border-top: none;
+                    margin-top: rem(77px);
+                    padding-bottom: rem(36px);
+                    h3 {
+                        font-size: rem(44px);
+                        color: #0c0c0c;
+                        padding-left: rem(48px);
+                        padding-right: rem(83px);
+                    }
+                    .k-ly {
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        height: rem(44px);
+                        font-size: rem(28px);
+                        color: #bac6cd;
+                        margin-top: rem(77px);
+                        .ly1 {
+                            width: 30%;
+                            height: rem(44px);
+                            margin-left: rem(56px);
+                            i {
+                                font-size: rem(44px);
+                                color: #bac6cd;
+                            }
+                        }
+                        .ly2 {
+                            font-size: rem(28px);
+                            color: #bac6cd;
+                            letter-spacing: rem(8px);
+                        }
+                    }
+                }
+            }
+        }
+        //展示部分end
+        .yema {
+            width: 20%;
+            height: rem(87px);
+            margin: 0 auto;
+            font-size: rem(36px);
+            color: #34b400;
+            line-height: rem(87px);
+            text-align: center;
+            margin-top: rem(60px);
+            border-radius: rem(20px);
+            border: 1px solid #c2ccd4;
+        }
     }
     //main结束
+    .footer {
+        width: 100%;
+        height: auto;
+        border-top: 2px solid #cbcbcb;
+        .footer1 {
+            width: 100%;
+            height: auto;
+            h1 {
+                margin-top: rem(63px);
+                text-align: center;
+                font-size: rem(58px);
+                color: #4b4b4b;
+                font-weight: bold;
+                margin-bottom: rem(58px);
+            }
+            .f1 {
+                width: 100%;
+                margin: 0 auto;
+                height: auto;
+                ul {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: rem(43px);
+                    a {
+                        display: block;
+                        li {
+                            font-size: rem(40px);
+                            color: #767676;
+                            margin-right: rem(20px);
+                        }
+                    }
+                }
+            }
+            >p {
+                text-align: center;
+                font-size: rem(26px);
+                color: #767676;
+                margin-bottom: rem(43px);
+            }
+        }
+        .footer2 {
+            width: 100%;
+            height: rem(121px);
+            text-align: center;
+            font-size: rem(34px);
+            color: #767676;
+            line-height: rem(121px);
+        }
+    }
 }
 
 .active {

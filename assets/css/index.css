@@ -10,7 +10,7 @@ a {
 
 .warp {
   width: 100%;
-  height: 27.77778rem;
+  height: auto;
 }
 
 .warp .header {
@@ -57,7 +57,7 @@ a {
 
 .warp .main {
   width: 100%;
-  height: 18.51852rem;
+  height: 50rem;
 }
 
 .warp .main .m-lb {
@@ -182,7 +182,7 @@ a {
 .warp .main .m-xx .xx-k {
   width: 40%;
   height: 1.47222rem;
-  border: 1px solid #f2f2f2;
+  border: 1px solid #f3f3f3;
   font-size: 0.50926rem;
   color: #7e7e7e;
   border-radius: 0.13889rem;
@@ -196,6 +196,163 @@ a {
 .warp .main .m-xx .xx-k a {
   font-size: 0.50926rem;
   color: #7e7e7e;
+}
+
+.warp .main .m-zs {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  margin-top: 0.60185rem;
+}
+
+.warp .main .m-zs .zsk {
+  margin: 0 auto;
+  width: 95%;
+  height: 8.61111rem;
+}
+
+.warp .main .m-zs .zsk a {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+  height: 5.57407rem;
+  background: url("../indeximages/1.png") repeat;
+  opacity: 0.8;
+}
+
+.warp .main .m-zs .zsk a img {
+  width: 100%;
+  height: 5.57407rem;
+}
+
+.warp .main .m-zs .zsk a .sheji {
+  position: absolute;
+  top: 0.13889rem;
+  left: 0.27778rem;
+  width: 15%;
+  height: 0.77778rem;
+  line-height: 0.77778rem;
+  text-align: center;
+  border-radius: 42%;
+  background: #d0c0a4;
+  opacity: 0.5;
+}
+
+.warp .main .m-zs .zsk .wzk {
+  margin: 0 auto;
+  width: 90%;
+  border: 1px solid #f2f2f2;
+  border-top: none;
+  margin-top: 0.71296rem;
+  padding-bottom: 0.33333rem;
+}
+
+.warp .main .m-zs .zsk .wzk h3 {
+  font-size: 0.40741rem;
+  color: #0c0c0c;
+  padding-left: 0.44444rem;
+  padding-right: 0.76852rem;
+}
+
+.warp .main .m-zs .zsk .wzk .k-ly {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 0.40741rem;
+  font-size: 0.25926rem;
+  color: #bac6cd;
+  margin-top: 0.71296rem;
+}
+
+.warp .main .m-zs .zsk .wzk .k-ly .ly1 {
+  width: 30%;
+  height: 0.40741rem;
+  margin-left: 0.51852rem;
+}
+
+.warp .main .m-zs .zsk .wzk .k-ly .ly1 i {
+  font-size: 0.40741rem;
+  color: #bac6cd;
+}
+
+.warp .main .m-zs .zsk .wzk .k-ly .ly2 {
+  font-size: 0.25926rem;
+  color: #bac6cd;
+  letter-spacing: 0.07407rem;
+}
+
+.warp .main .yema {
+  width: 20%;
+  height: 0.80556rem;
+  margin: 0 auto;
+  font-size: 0.33333rem;
+  color: #34b400;
+  line-height: 0.80556rem;
+  text-align: center;
+  margin-top: 0.55556rem;
+  border-radius: 0.18519rem;
+  border: 1px solid #c2ccd4;
+}
+
+.warp .footer {
+  width: 100%;
+  height: auto;
+  border-top: 2px solid #cbcbcb;
+}
+
+.warp .footer .footer1 {
+  width: 100%;
+  height: auto;
+}
+
+.warp .footer .footer1 h1 {
+  margin-top: 0.58333rem;
+  text-align: center;
+  font-size: 0.53704rem;
+  color: #4b4b4b;
+  font-weight: bold;
+  margin-bottom: 0.53704rem;
+}
+
+.warp .footer .footer1 .f1 {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.warp .footer .footer1 .f1 ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.39815rem;
+}
+
+.warp .footer .footer1 .f1 ul a {
+  display: block;
+}
+
+.warp .footer .footer1 .f1 ul a li {
+  font-size: 0.37037rem;
+  color: #767676;
+  margin-right: 0.18519rem;
+}
+
+.warp .footer .footer1 > p {
+  text-align: center;
+  font-size: 0.24074rem;
+  color: #767676;
+  margin-bottom: 0.39815rem;
+}
+
+.warp .footer .footer2 {
+  width: 100%;
+  height: 1.12037rem;
+  text-align: center;
+  font-size: 0.31481rem;
+  color: #767676;
+  line-height: 1.12037rem;
 }
 
 .active {
