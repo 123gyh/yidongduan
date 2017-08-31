@@ -57,7 +57,7 @@ a {
 
 .warp .main {
   width: 100%;
-  height: 50rem;
+  height: 51.38889rem;
 }
 
 .warp .main .m-lb {
@@ -151,10 +151,15 @@ a {
   height: 1.99074rem;
   border: 1px dotted #ddd;
   margin-bottom: 0.23148rem;
+  padding: 0.18519rem 0;
 }
 
-.warp .main .m-mr .m-list > ul > li a:first-child img {
-  width: 100%;
+.warp .main .m-mr .m-list > ul > li a {
+  display: block;
+}
+
+.warp .main .m-mr .m-list > ul > li a img {
+  width: 3.13889rem;
   height: 1.97222rem;
 }
 
@@ -163,11 +168,12 @@ a {
   height: 0.44444rem;
   color: #6c6c6c;
   font-size: 0.44444rem;
-  white-space: warp;
+  white-space: wrap;
 }
 
 .warp .main .m-mr .m-list > ul > li a:last-child h3 {
   padding-left: 0.31481rem;
+  margin-top: 0.27778rem;
 }
 
 .warp .main .m-xx {
@@ -353,6 +359,7 @@ a {
   font-size: 0.31481rem;
   color: #767676;
   line-height: 1.12037rem;
+  border-top: 1px solid #cbcbcb;
 }
 
 .active {

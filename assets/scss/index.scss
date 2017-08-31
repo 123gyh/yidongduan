@@ -57,7 +57,7 @@ a {
     // main 开始
     .main {
         width: 100%;
-        height: rem(5400px);
+        height: rem(5550px);
         .m-lb {
             overflow: hidden;
             width: 100%;
@@ -136,9 +136,11 @@ a {
                         height: rem(215px);
                         border: 1px dotted #ddd;
                         margin-bottom: rem(25px);
-                        & a:first-child {
+                        padding: rem(20px) 0;
+                        a {
+                            display: block;
                             img {
-                                width: 100%;
+                                width: rem(339px); //100%;
                                 height: rem(213px);
                             }
                         }
@@ -147,9 +149,10 @@ a {
                             height: rem(48px);
                             color: #6c6c6c;
                             font-size: rem(48px);
-                            white-space: warp;
+                            white-space: wrap;
                             h3 {
                                 padding-left: rem(34px);
+                                margin-top: rem(30px);
                             }
                         }
                     }
@@ -320,6 +323,7 @@ a {
             font-size: rem(34px);
             color: #767676;
             line-height: rem(121px);
+            border-top: 1px solid #cbcbcb;
         }
     }
 }
