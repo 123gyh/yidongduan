@@ -56,22 +56,60 @@
         height: rem(1799px);
         background: url("../listimages/bj.jpg") no-repeat;
         background-position: left top;
-        background-size: 100% 100%;
+        background-size: 100%;
         .u-k {
             display: flex;
-            width: 40%;
-            height: auto;
+            width: 45%;
+            height: rem(193px);
             position: absolute;
             top: rem(86px);
             left: rem(546px);
             background: yellow;
             justify-content: space-between;
+            overflow: hidden;
             .blue {
                 width: 40%;
                 height: rem(193px);
-                background-size: 100% 100%;
+                line-height: rem(193px);
+                background-size: 100%;
                 background: url("../listimages/1.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                span {
+                    font-size: rem(45px);
+                    font-weight: bold;
+                    color: #fff;
+                }
+                p {
+                    font-size: rem(32px);
+                    width: 30%;
+                    height: auto;
+                }
             }
+            .red {
+                width: 40%;
+                height: rem(193px);
+                line-height: rem(193px);
+                background-size: 100%;
+                background: url("../listimages/2.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                span {
+                    font-size: rem(45px);
+                    font-weight: bold;
+                    color: #fff;
+                }
+                p {
+                    font-size: rem(32px);
+                    width: 30%;
+                    height: auto;
+                }
+            }
+        }
+        h1 {
+            clear: both;
+            font-size: rem(54px);
+            color: #474e57;
         }
     }
     // 主体主体下部分

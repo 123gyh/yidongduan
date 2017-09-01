@@ -56,25 +56,69 @@
   height: 16.65741rem;
   background: url("../listimages/bj.jpg") no-repeat;
   background-position: left top;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .warp .mainup .u-k {
   display: flex;
-  width: 40%;
-  height: auto;
+  width: 45%;
+  height: 1.78704rem;
   position: absolute;
   top: 0.7963rem;
   left: 5.05556rem;
   background: yellow;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .warp .mainup .u-k .blue {
   width: 40%;
   height: 1.78704rem;
-  background-size: 100% 100%;
+  line-height: 1.78704rem;
+  background-size: 100%;
   background: url("../listimages/1.png") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.warp .mainup .u-k .blue span {
+  font-size: 0.41667rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.warp .mainup .u-k .blue p {
+  font-size: 0.2963rem;
+  width: 30%;
+  height: auto;
+}
+
+.warp .mainup .u-k .red {
+  width: 40%;
+  height: 1.78704rem;
+  line-height: 1.78704rem;
+  background-size: 100%;
+  background: url("../listimages/2.png") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.warp .mainup .u-k .red span {
+  font-size: 0.41667rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.warp .mainup .u-k .red p {
+  font-size: 0.2963rem;
+  width: 30%;
+  height: auto;
+}
+
+.warp .mainup h1 {
+  clear: both;
+  font-size: 0.5rem;
+  color: #474e57;
 }
 
 .warp .maindown {
