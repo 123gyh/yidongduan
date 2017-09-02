@@ -54,17 +54,12 @@
         margin-top: rem(180px);
         width: 100%;
         height: rem(1799px);
-        background: url("../listimages/bj.jpg") no-repeat;
-        background-position: left top;
-        background-size: 100%;
+        // overflow: hidden;
         .u-k {
             display: flex;
             width: 45%;
             height: rem(193px);
-            position: absolute;
-            top: rem(86px);
-            left: rem(546px);
-            background: yellow;
+            margin: rem(160px) 0 0 rem(546px);
             justify-content: space-between;
             overflow: hidden;
             .blue {
@@ -83,7 +78,8 @@
                 p {
                     font-size: rem(32px);
                     width: 30%;
-                    height: auto;
+                    height: rem(32px);
+                    background: red;
                 }
             }
             .red {
@@ -101,15 +97,79 @@
                 }
                 p {
                     font-size: rem(32px);
-                    width: 30%;
+                    width: 50%;
                     height: auto;
                 }
             }
         }
-        h1 {
-            clear: both;
-            font-size: rem(54px);
-            color: #474e57;
+        .uplbk {
+            width: 100%;
+            height: rem(1325px);
+            background: #f1f4f6;
+            h1 {
+                margin-left: rem(36px);
+                font-size: rem(54px);
+                color: #474e57;
+                font-weight: bold;
+                margin-bottom: rem(62px);
+            }
+            .uplb {
+                width: 100%;
+                height: rem(1060px);
+                background: pink;
+                //position: relative;
+                ul {
+                    margin: 0 rem(82px);
+                    //position: absolute;
+                    //top: 0;
+                    // left: rem(82px);
+                    width: 600%;
+                    height: rem(890px);
+                    li {
+                        background: #fff;
+                        float: left;
+                        width: 100%/6*90%;
+                        height: rem(914px);
+                        a {
+                            img {
+                                width: 100%;
+                                height: rem(469px);
+                            }
+                            h3 {
+                                font-size: rem(48px);
+                                color: #212121;
+                                line-height: rem(48px);
+                                margin: rem(85px) 0 rem(196px) rem(32px);
+                            }
+                            .uppl {
+                                height: rem(43px);
+                                font-size: rem(42px);
+                                color: #bcc7cc;
+                                margin-left: rem(32px);
+                                span:nth-child(1) {
+                                    margin-right: rem(340px);
+                                    i {
+                                        font-size: rem(42px);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                ol {
+                    clear: both;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: rem(60px);
+                    li {
+                        width: 2%;
+                        height: rem(30px);
+                        border-radius: 50%;
+                        margin-right: rem(25px);
+                        background: #c1c4c4;
+                    }
+                }
+            }
         }
     }
     // 主体主体下部分
@@ -228,4 +288,19 @@
             border-top: 1px solid #cbcbcb;
         }
     }
+}
+
+// 背景图
+.upbj {
+    width: 100%;
+    height: rem(470px);
+    background: url("../listimages/bj.jpg") no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+//ol 颜色
+.active {
+    background: red;
 }
