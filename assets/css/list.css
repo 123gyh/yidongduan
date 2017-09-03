@@ -125,21 +125,25 @@
 }
 
 .warp .mainup .uplbk .uplb {
-  width: 100%;
+  width: 90%;
   height: 9.81481rem;
-  background: pink;
+  margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 
 .warp .mainup .uplbk .uplb ul {
-  margin: 0 auto;
-  width: 90%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 700%;
+  display: flex;
   height: 8.24074rem;
 }
 
 .warp .mainup .uplbk .uplb ul li {
   background: #fff;
-  width: 100%/6;
+  width: 14.28571%;
   height: 8.46296rem;
 }
 
@@ -171,10 +175,9 @@
 }
 
 .warp .mainup .uplbk .uplb ol {
-  clear: both;
   display: flex;
   justify-content: center;
-  margin-top: 0.55556rem;
+  margin-top: 9.07407rem;
 }
 
 .warp .mainup .uplbk .uplb ol li {
@@ -325,8 +328,4 @@
   background-position: left top;
   background-size: 100%;
   overflow: hidden;
-}
-
-.active {
-  background: red;
 }

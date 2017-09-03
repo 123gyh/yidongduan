@@ -114,22 +114,23 @@
                 margin-bottom: rem(62px);
             }
             .uplb {
-                width: 100%;
+                width: 90%;
                 height: rem(1060px);
-                background: pink;
-                //position: relative;
+                margin: 0 auto;
+                position: relative;
+                overflow: hidden;
                 ul {
-                    margin: 0 rem(82px);
-                    //position: absolute;
-                    //top: 0;
-                    // left: rem(82px);
-                    width: 600%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 700%;
+                    display: flex;
                     height: rem(890px);
                     li {
                         background: #fff;
-                        float: left;
-                        width: 100%/6*90%;
+                        width: (100%/7);
                         height: rem(914px);
+                        //margin-right: rem(20px);
                         a {
                             img {
                                 width: 100%;
@@ -157,10 +158,9 @@
                     }
                 }
                 ol {
-                    clear: both;
                     display: flex;
                     justify-content: center;
-                    margin-top: rem(60px);
+                    margin-top: rem(980px);
                     li {
                         width: 2%;
                         height: rem(30px);
@@ -301,6 +301,3 @@
 }
 
 //ol 颜色
-.active {
-    background: red;
-}

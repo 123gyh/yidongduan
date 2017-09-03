@@ -71,32 +71,30 @@ a {
   height: 4.14815rem;
   background: #ddd;
   position: relative;
-}
-
-.warp .main .m-lb > ul > li {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 4.14815rem;
-}
-
-.warp .main .m-lb > ul > li img {
-  width: 100%;
-  height: 4.14815rem;
-}
-
-.warp .main .m-lb > ol {
-  position: absolute;
-  bottom: -3.24074rem;
-  left: 3.7037rem;
-}
-
-.warp .main .m-lb > ol li {
-  float: left;
-  width: 0.2963rem;
-  height: 0.2963rem;
-  border-radius: 50%;
+  /* >ul {
+                >li {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: rem(448px);
+                    img {
+                        width: 100%;
+                        height: rem(448px);
+                    }
+                }
+            }
+            >ol {
+                position: absolute;
+                bottom: rem(-350px);
+                left: rem(400px);
+                li {
+                    float: left;
+                    width: rem(32px);
+                    height: rem(32px);
+                    border-radius: 50%;
+                }
+            } */
 }
 
 .warp .main .m-lb .l-left {

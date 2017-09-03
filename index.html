@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_389081_ppc82pyi6sjj1yvi.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
 </head>
 
 <body>
@@ -24,29 +25,26 @@
         <!-- main starr -->
         <div class="main">
             <!-- 轮播图 -->
-            <div class="m-lb">
-                <ul>
-                    <li>
+            <div class="swiper-container m-lb">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
                         <a href="javascript:;"><img src="assets/indeximages/slide3.jpg" alt=""></a>
                     </li>
-                    <li>
+                    <li class="swiper-slide">
                         <a href="javascript:;"><img src="assets/indeximages/slide2.jpg" alt=""></a>
                     </li>
-                    <li>
+                    <li class="swiper-slide">
                         <a href="javascript:;"><img src="assets/indeximages/slide4.jpg" alt=""></a>
                     </li>
-                    <li>
+                    <li class="swiper-slide">
                         <a href="javascript:;"><img src="assets/indeximages/slide5.jpg" alt=""></a>
                     </li>
                 </ul>
-                <ol>
-                    <li class="active"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ol>
-                <div class="l-left"><i class="iconfont icon-zuo"></i></div>
-                <div class="l-right"><i class="iconfont icon-you"></i></div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
             <!-- 每日新鲜 start-->
             <div class="m-mr">
@@ -173,6 +171,9 @@
         </div>
         <!-- footer  end -->
     </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
